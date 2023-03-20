@@ -54,6 +54,9 @@
     exclude: /node_modules/,
     use: ["babel-loader"]
     }
+    ,где в exclude указываем папке, которую не нужно включать в разработку;
+    в test указываем, что за файлы(на какое окончание файлы);
+    в use указываем массив загрузчика, которые вызываются с конца.
 19. создаем в корне проекта файл babel.config.json и добавляем в него {
     "presets": ["@babel/preset-env"]
     }. И запускаем в терминале npm install @babel/preset-env --save-dev
