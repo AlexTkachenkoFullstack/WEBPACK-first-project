@@ -33,6 +33,7 @@
     devServer: {
     port: 9000,
     },
+    , где devServer - это аналог LiveServer. Открывает страничку в браузере.
 15. Для того, чтоб внести изменения нажимаем Crtr+C (перезагружаем) и прописываем снова команду npm run dev
 16. Добавляем загрузчики Loaders(https://webpack.js.org/concepts/loaders). Для этого в webpack.config.js в module.exports добавляем:
     module: {
